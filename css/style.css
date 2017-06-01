@@ -113,7 +113,8 @@ label {
   transition: all 0.25s ease;
   -webkit-backface-visibility: hidden;
   pointer-events: none;
-  font-size: 22px;
+  font-size: 1.375em;
+	font-weight: 300;
 }
 label .req {
   margin: 2px;
