@@ -94,7 +94,7 @@ $('#submit-btn').on('click', function () {
 		cache: false,
 		success: function (html) {
 			$("#thankyou").show();
-			$(".forget-p-form").hide();	
+			$(".hide-form").hide();	
 		}
 	});
 });
