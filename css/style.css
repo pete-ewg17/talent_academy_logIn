@@ -216,13 +216,18 @@ textarea {
     padding-bottom: 1.2em;
 }
 
-.img-wrapper img {
-	
-}
 
-.modal-header,
 .modal-footer{
 	border: none;
 }
 
+.mh-custom {
+	background: #555;
+	border: none;
+	color: #fff;
+}
+
+.close {
+	color: #fff;
+}
 
