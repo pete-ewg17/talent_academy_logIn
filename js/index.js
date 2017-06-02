@@ -42,6 +42,7 @@ $('.tab a').on('click', function (e) {
 });
 
 
+// Tab Content and background animation
 $('.signupBTN').on('click', function () {
 
 	$('.wrapper').animate({
