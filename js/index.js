@@ -82,3 +82,51 @@ $('.loginBTN').on('click', function () {
 				});
 		});
 });
+
+
+// Modal Thank You 
+
+
+$('#submit-btn').on('click', function () {
+	
+	$.ajax({
+		url: "contact.php",
+		cache: false,
+		success: function (html) {
+			$("#thankyou").show();
+			$(".forget-p-form").hide();	
+		}
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

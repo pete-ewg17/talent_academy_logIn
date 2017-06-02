@@ -36,104 +36,109 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-			<div class="form">
-				<ul class="tab-group">
-					<li class="tab active"><a href="#login-1" class="loginBTN">EWG: Academy</a></li>
-					<li class="tab"><a href="#signup" class="signupBTN">EWG: Talent</a></li>
-				</ul>
+				<div class="form">
+					<ul class="tab-group">
+						<li class="tab active"><a href="#login-1" class="loginBTN">EWG: Academy</a></li>
+						<li class="tab"><a href="#signup" class="signupBTN">EWG: Talent</a></li>
+					</ul>
 
-				<div class="tab-content">
-					<div id="login-1">
-						<div class="img-wrapper">
-							<img class="img-responsive" src="images/ewg_acad_logo.svg" alt="EWG Academy Logo" data-tilt>
-						</div>
-						<h1>Welcome To EWG: Academy</h1>
+					<div class="tab-content">
+						<div id="login-1">
+							<div class="img-wrapper">
+								<img class="img-responsive" src="images/ewg_acad_logo.svg" alt="EWG Academy Logo" data-tilt>
+							</div>
+							<h1>Welcome To EWG: Academy</h1>
 
-						<form action="/" method="post">
+							<form action="/" method="post">
 
-							<div class="field-wrap form-group">
-								<label>
+								<div class="field-wrap form-group">
+									<label>
               Email Address<span class="req">*</span>
             </label>
-								<input type="email" required autocomplete="off" />
-							</div>
+									<input type="email" required autocomplete="off" />
+								</div>
 
-							<div class="field-wrap form-group">
-								<label>
+								<div class="field-wrap form-group">
+									<label>
               Password<span class="req">*</span>
             </label>
-								<input type="password" required autocomplete="off" />
-							</div>
+									<input type="password" required autocomplete="off" />
+								</div>
 
-							<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
+								<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
 
-							<button type="log-in" value="Log In" class="button button-block">Log In</button>
+								<button type="log-in" value="Log In" class="button button-block">Log In</button>
 
-						</form>
+							</form>
 
-					</div>
+						</div>
 
-					<div id="signup">
-						
-						<div class="img-wrapper">
+						<div id="signup">
+
+							<div class="img-wrapper">
 								<img class="img-responsive" src="images/ewg_talent_logo.svg" alt="EWG Talent Logo" data-tilt>
-							
-						</div>
-						<h1>Welcome To EWG: Talent</h1>
 
-						<form action="/" method="post">
+							</div>
+							<h1>Welcome To EWG: Talent</h1>
 
-							<div class="field-wrap form-group">
-								<label>
+							<form action="/" method="post">
+
+								<div class="field-wrap form-group">
+									<label>
               Email Address<span class="req">*</span>
             </label>
-								<input type="email" required autocomplete="off" />
-							</div>
+									<input type="email" required autocomplete="off" />
+								</div>
 
-							<div class="field-wrap form-group">
-								<label>
+								<div class="field-wrap form-group">
+									<label>
               Password<span class="req">*</span>
             </label>
-								<input type="password" required autocomplete="off" />
-							</div>
+									<input type="password" required autocomplete="off" />
+								</div>
 
-							<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
+								<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
 
-							<button type="log-in" value="Log In" id="acad-btn" class="button button-block">Log In</button>
+								<button type="log-in" value="Log In" id="acad-btn" class="button button-block">Log In</button>
 
-						</form>
+							</form>
+
+						</div>
+
 
 					</div>
-
-
 				</div>
-			</div>
 
+			</div>
 		</div>
 	</div>
-	</div><!-- CONTAINER -->
-	
-	
+	<!-- CONTAINER -->
+
+
 	<!-- SMALL MODAL -->
 	<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-md">
-      <div class="modal-content">
-        <div class="modal-header mh-custom">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Forgot Your Password ?</h4>
-        </div>
-        <div class="modal-body">
-           <p>Please enter your email address to rest your password.</p>
-           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    				
-        </div>
-        <div class="modal-footer">
-          <button type="Submit" class="btn btn-default" data-dismiss="modal">Submit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	
+		<div class="modal-dialog modal-md">
+			<div class="modal-content">
+				<div class="modal-header mh-custom">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Forgot Your Password ?</h4>
+				</div>
+				<div class="modal-body">
+					<div class="forget-p-form">
+						<p>Please enter your email address to rest your password.</p>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					</div>
+					<div id="thankyou" style="display:none">
+						<p>Thank you</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button id="submit-btn" type="Submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 
