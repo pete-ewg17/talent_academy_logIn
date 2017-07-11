@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sign-Up/Login Form</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -38,7 +38,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="form animated zoomInUp">
 					<ul class="tab-group">
-						
+
 						<li class="tab active"><a href="#login-1" class="loginBTN">EWG: Academy <br><strong> Workforcers</strong></a></li>
 						<li class="tab"><a href="#signup" class="signupBTN">EWG: Talent <br><strong> Clients</strong></a> </li>
 					</ul>
@@ -59,19 +59,22 @@
 									<input type="email" required autocomplete="off" />
 								</div>
 
-								<div class="field-wrap form-group">
+								<div class="field-wrap form-group mb-0">
 									<label>
               Password<span class="req">*</span>
             </label>
 									<input type="password" required autocomplete="off" />
 								</div>
 
-								<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
-
-								<button type="log-in" value="Log In" class="button button-block">Log In</button>
-
+								<div class="checkbox">
+									<label class="checkbox">
+												 <input class="cbx" style="pointer-events: auto" type="checkbox" value="remember-me">Remember me
+											</label>
+								</div>
 							</form>
 
+							<button type="log-in" value="Log In" class="button button-block">Log In</button>
+							<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
 						</div>
 
 						<div id="signup">
@@ -91,16 +94,21 @@
 									<input type="email" required autocomplete="off" />
 								</div>
 
-								<div class="field-wrap form-group">
+								<div class="field-wrap form-group mb-0">
 									<label>
               Password<span class="req">*</span>
             </label>
 									<input type="password" required autocomplete="off" />
 								</div>
 
-								<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
+								<div class="checkbox">
+									<label class="checkbox">
+												 <input class="cbx" style="pointer-events: auto" type="checkbox" value="remember-me">Remember me
+											</label>
+								</div>
 
 								<button type="log-in" value="Log In" id="acad-btn" class="button button-block">Log In</button>
+								<p class="forgot"><a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a></p>
 
 							</form>
 
@@ -131,7 +139,7 @@
 					</div>
 					<div id="thankyou" style="display:none">
 						<h4>Thank you</h4>
-							<p>We have sent you an email!</p>
+						<p>We have sent you an email!</p>
 					</div>
 				</div>
 				<div class="modal-footer">

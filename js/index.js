@@ -64,6 +64,7 @@ $('.signupBTN').on('click', function () {
 });
 
 
+// Change background color log-in
 $('.loginBTN').on('click', function () {
 	$('.wrapper').animate({
 			opacity: 1
@@ -85,7 +86,6 @@ $('.loginBTN').on('click', function () {
 
 
 // Modal Thank You 
-
 
 $('#submit-btn').on('click', function () {
 	
